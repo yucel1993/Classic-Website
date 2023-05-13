@@ -1,0 +1,158 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+   
+
+}
+
+
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(rgb(151, 206, 219), rgba(199, 101, 126, 0.719));
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__left__image {
+    width: 142px;
+    height: 187px;
+    margin-left: 1rem;
+}
+
+.header__right {
+    vertical-align: middle
+}
+
+.header__right__ul {
+    margin-top: 5rem;
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+}
+
+
+.header__right__ul-li {display: inline;
+    margin: 1rem;
+    vertical-align: middle;
+    cursor: pointer;   
+}
+
+.nav {
+    width: 100%;
+    padding: 40px;
+    background-image: linear-gradient(to right,orange,red);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.nav__ul {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nav__ul__li {
+    display: inline;
+    margin: 1rem;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.nav__ul__li:hover {
+    display: inline;
+    margin: 1rem;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.main {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /* padding: 20rem; */
+    height:60vh;
+    background-position:center;
+    color: white;
+    
+    
+}
+.main__image__text  {
+    
+    position: absolute;
+    top: 25rem;
+    left: 4rem;
+}
+
+.main__image__text h2{
+    margin-top: 0.4rem;
+    color: red;
+    font-size: 1rem;
+}
+
+.main__image__text p {
+    margin-top: 1rem;
+}
+.main__image__text p a {
+    margin-top: 2rem;
+    color: black;
+    background-color: pink;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.main__image__text p a:hover {
+    margin-top: 2rem;
+    color: black;
+    background-color: rgba(255, 192, 203, 0.308);
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+    font-weight: 900;
+    padding: 0.7rem;
+    color: white;
+}
+
+.section {
+    font-family: Arial, Helvetica, sans-serif;
+    
+     background-color: antiquewhite;
+}
+.section__text {
+    
+   
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: red;
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+.fa-brands:hover {
+    color: black;
+    font-size: 2rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 1rem;
+}
