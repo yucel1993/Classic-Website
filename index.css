@@ -44,7 +44,7 @@
 .nav {
     width: 100%;
     padding: 40px;
-    background-image: linear-gradient(to right,orange,red);
+    background-image: linear-gradient(to right,#dac613,red);
     position: sticky;
     top: 0;
     z-index: 2;
