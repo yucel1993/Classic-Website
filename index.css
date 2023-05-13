@@ -75,18 +75,18 @@
 
 }
 
-.main {
+/* .main {
     background-image: url("banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    /* padding: 20rem; */
+    
     height:60vh;
     background-position:center;
     color: white;
     
     
-}
+} */
 
 main {
     position: relative;
