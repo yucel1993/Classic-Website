@@ -10,7 +10,7 @@ In this Repository You will find the Website Designs I was working on such as:
 
 - [Classic-Website](https://yucel1993.github.io/Classic-Website/)
 
-- [Netflix Survey Form](hhttps://yucel1993.github.io/Netflix-RegisterForm/)
+- [Netflix Survey Form](https://yucel1993.github.io/Netflix-RegisterForm/)
 
 - [Parallax-Website](https://yucel1993.github.io/Parallax-Website/)
 
